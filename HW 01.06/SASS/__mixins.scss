@@ -1,0 +1,20 @@
+@mixin buttons($bc, $br, $p, $w, $fs) {
+    background-color: $bc;
+    color: white;
+    padding: $p;
+    width: $w;
+    font-weight: bold;
+    border-radius: $br;
+    border: none;
+    font-size: $fs;
+    transition: 0.8s;
+}
+
+@mixin square($bc, $fs, $c) {
+    background-color: $bc;
+    width: 32%;
+    text-align: center;
+    padding: 120px 30px;
+    font-size: $fs;
+    color: $c;
+}

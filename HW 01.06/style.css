@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 0;
+  z-index: 20;
+}
+header ul {
+  width: 20%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+header ul li {
+  font-size: 17px;
+}
+
+main {
+  background-color: rgba(224, 224, 224, 0.848);
+}
+
+.main_container {
+  background-color: #ff56e0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10% 50px 15%;
+}
+.main_container .container {
+  width: 50%;
+  color: white;
+  align-items: center;
+  padding-top: 150px;
+}
+.main_container .container button {
+  background-color: #f1a40e;
+  color: white;
+  padding: 15px 10px;
+  width: 200px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  transition: 0.8s;
+}
+.main_container .container h2 {
+  font-size: 65px;
+  letter-spacing: 2px;
+}
+.main_container .container p {
+  font-size: 18px;
+  padding: 25px 0;
+}
+.main_container .container button:hover {
+  background-color: #d9940d;
+}
+.main_container img {
+  width: 38%;
+  height: 525px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.second_container {
+  position: relative;
+  padding: 0 0 300px;
+}
+.second_container img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 -90px;
+     object-position: 0 -90px;
+}
+.second_container .three_boxes {
+  display: flex;
+  width: 74%;
+  justify-content: space-between;
+  position: absolute;
+  left: 13%;
+  top: 350px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.second_container .three_boxes h2 {
+  width: 100%;
+  color: white;
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+.second_container .three_boxes .box-1 {
+  background-color: #f1a40e;
+  width: 32%;
+  text-align: center;
+  padding: 120px 30px;
+  font-size: 20px;
+  color: white;
+}
+.second_container .three_boxes .box-2 {
+  background-color: #ee57dc;
+  width: 32%;
+  text-align: center;
+  padding: 120px 30px;
+  font-size: 20px;
+  color: white;
+}
+.second_container .three_boxes .box-3 {
+  background-color: white;
+  width: 32%;
+  text-align: center;
+  padding: 120px 30px;
+  font-size: 20px;
+  color: black;
+}
+
+.third-container {
+  background-image: linear-gradient(to right, #ffad64, #eb7463);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 13%;
+}
+.third-container .left-container {
+  width: 50%;
+  padding: 150px 0;
+  color: white;
+  padding-right: 50px;
+}
+.third-container .left-container h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.third-container .left-container form label {
+  width: 100%;
+  font-size: 20px;
+}
+.third-container .left-container form input {
+  margin: 20px 0;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.third-container .left-container button {
+  background-color: #ff56e0;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  font-size: 25px;
+  transition: 0.8s;
+}
+.third-container .left-container button:hover {
+  background-color: rgb(255, 192, 249);
+  color: #ff56e0;
+}
+.third-container img {
+  width: 50%;
+}
+
+footer {
+  background-color: rgb(36, 36, 36);
+  padding: 120px 0;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+}
